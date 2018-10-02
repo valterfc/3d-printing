@@ -1,5 +1,9 @@
-# Alife 50 - Aquafresh - Hang-On aquarium filter
+# Alife 50 - Aquafresh - Hang On Aquarium Carbon Filter - Customizable
 
+## You need
+- print parts
+- perlon
+- activated charcoal (from the hardware store garden section or pet shop)
 
 ## How to print
 
@@ -22,3 +26,5 @@ or
 
 - vfc_aquarium_carbon_filter_tela.stl
 ```
+
+https://www.thingiverse.com/thing:3132624
