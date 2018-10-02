@@ -1,7 +1,7 @@
 # Alife 50 - Aquafresh - Hang-On aquarium filter
 
 
-## vfc_aquarium_carbon_filter_principal.stl - principal
+## How to print
 
 **- complete filter**
 ```
