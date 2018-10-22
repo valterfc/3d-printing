@@ -36,5 +36,5 @@ module canto(){
 module recorteAleasXp06() {
     translate([-1, -1, -1])
     color("blue")
-    cube([86+1, 21+1, altura+2], center=false);
+    cube([89+1, 21+1, altura+2], center=false);
 }
