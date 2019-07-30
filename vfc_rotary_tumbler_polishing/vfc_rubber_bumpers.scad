@@ -5,8 +5,12 @@ difference()
 {
 
 union() {
+  translate([0,0,hl-1])
+  color("DarkBlue")
+  cylinder(3,d1=9,d2=7,$fn=smooth);
+    
   color("blue")
-  cylinder(hl,d=9.5,$fn=smooth);
+  cylinder(hl-1,d=9,$fn=smooth);
     
   color("green")
   cylinder(4,d=17,$fn=smooth);
@@ -20,7 +24,7 @@ union() {
 
   color("red")
   translate([0,0,7+0.5])
-  cylinder(hl,d=2.9,$fn=smooth);
+  cylinder(hl,d=3.05,$fn=smooth);
 }
 
 }
