@@ -8,7 +8,7 @@ sphere(d=90, $fn=100);
 
 union() {
 color("yellow")
-sphere(d=90-5, $fn=100);
+sphere(d=90-3, $fn=100);
 
 color("red")
 translate([-60,-2.25,-1.8])
