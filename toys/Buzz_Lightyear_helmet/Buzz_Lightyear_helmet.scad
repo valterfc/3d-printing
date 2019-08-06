@@ -12,7 +12,7 @@ difference() {
 if (externo) {
   main(3,90);
 } else {
-  main(3,84);
+  main(3,83);
 }
 
 if (!completo) {
