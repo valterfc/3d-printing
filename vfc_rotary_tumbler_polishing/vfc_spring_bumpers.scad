@@ -1,6 +1,7 @@
 hl = 50;
 smooth = 40;
 dia = 12;
+diaM = 2.7;
 diaB = 18;
 
 difference()
@@ -25,7 +26,7 @@ union() {
 
   color("red")
   translate([0,0,7+1.5])
-  cylinder(hl,d=2.95,$fn=smooth);
+  cylinder(hl,d=diaM,$fn=smooth);
 
   color("pink")
   translate([0,0,-1])
