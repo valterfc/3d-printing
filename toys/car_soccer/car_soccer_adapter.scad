@@ -24,7 +24,7 @@ mirror([180,0,0])
 pontas();
 
 module pontas(inverter) {
-angulo = 12.0948; // 12.0948; 77.90
+angulo = 18; // 12.0948
     color("red")
     rotate([0,0,angulo])
     cube([6, 70, 30]);
