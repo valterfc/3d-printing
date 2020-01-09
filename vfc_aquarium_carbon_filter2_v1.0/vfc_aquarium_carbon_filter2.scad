@@ -93,10 +93,16 @@ module bodyCorte() {
     translate([0,0,-1])
     rotate([0,-0,0]) {
         translate([-2,-dDif,2])
-        cube([lMax+5,brd+dDif,altura*2]);
+        cube([lMax+42,brd+dDif,altura*2]);
+        rotate([0,0,-1])
+        translate([-2,-dDif-5.15,0])
+        cube([lMax+60,brd+dDif,altura*2]);
 
         translate([-2,lMax-eDif,2])
-        cube([lMax+5,brd+dDif,altura*2]);
+        cube([lMax+42,brd+dDif,altura*2]);
+        rotate([0,0,1])
+        translate([-2,lMax+5.15-eDif,0])
+        cube([lMax+60,brd+dDif,altura*2]);
     }
 }
 
