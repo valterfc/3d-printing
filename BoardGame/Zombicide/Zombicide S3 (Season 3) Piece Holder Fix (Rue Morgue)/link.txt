@@ -1,0 +1,16 @@
+Zombicide S3 (Season 3) Piece Holder Fix (Rue Morgue)
+https://www.thingiverse.com/thing:4190424
+
+I just added more gap in "hold2_noise_spawn.stl" to fit in S3, and little fixes, renamed for "hold2_noise_spawn__moregap.stl".
+
+For print, use:
+1x hold1_obj_door.stl
+1x hold2_noise_spawn__moregap.stl
+1x hold3_dice_events_123.stl
+1x hold4_stairs_xp_ability.stl
+
+This is a repack of:
+https://www.thingiverse.com/thing:1938981
+https://www.thingiverse.com/thing:1637020
+
+I plan to add more gap in the "hold1_obj_door.stl" file.
