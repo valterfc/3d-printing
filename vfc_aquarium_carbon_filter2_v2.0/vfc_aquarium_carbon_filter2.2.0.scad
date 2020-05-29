@@ -76,18 +76,17 @@ cube([icomp,0.8,heigth]);
 module bodyTopo() {
 iMax = lMax - bordaL - (4+2) + 2.4;
 icomp = comp - bordaL - 5 + 2.4;
-dif = 1.5;
+dif = 1;
 //dif = 0;
 
 difference() {
 
 color("red")
-translate([bordaL-13+dif,bordaL-13+dif,0])
-cube([icomp+10-3,iMax+8-(dif*2),3]);
+cube([icomp+10-3-(dif*2),iMax+8-(dif*2),3], center=true);
 
 color("blue")
-translate([bordaL-7.2,bordaL-8.2,-2])
-cube([icomp-2,iMax-2,6]);
+translate([0,0,-1])
+cube([icomp-2,iMax-2,6], center=true);
 
 }
     
